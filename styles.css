@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: url('https://img.freepik.com/fotos-premium/mulher-com-corda-de-batalha-cordas-de-batalha-exercicios-na-academia-de-ginastica-treinamento-de-corda-esportiva-trabalho-de-atleta_73899-7199.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+header {
+  background: black;
+  padding: 1em 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 1.5em;
+  color: #f50057;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2em;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.sub-title {
+  color: #f50057;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.form {
+  background: #000;
+  padding: 1.5em;
+  margin-top: 2em;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+
+.form label, .form legend {
+  display: block;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="tel"] {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border: none;
+  border-radius: 5px;
+}
+
+.form fieldset {
+  margin-top: 1em;
+  border: none;
+}
+
+.form button {
+  background: #f50057;
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form small {
+  display: block;
+  margin-top: 1em;
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.plans {
+  background: rgba(0, 0, 0, 0.8);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1em;
+  padding: 2em;
+  margin-top: 2em;
+}
+
+.plan {
+  background: #111;
+  padding: 1em;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  background: black;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+  font-size: 0.9em;
+}
+
+.btn-escolher {
+  background-color: #e6007e;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-escolher:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(230, 0, 126, 0.7);
+  background-color: #c00068;
+}

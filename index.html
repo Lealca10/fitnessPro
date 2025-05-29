@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Black Friday - Academia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo">FitnessPro</div>
+</header>
+
+<section class="hero">
+  <h1>BLACK FRIDAY 🏋️‍♂️</h1>
+  <p class="sub-title">Não perca a melhor promoção do ano na nossa academia!</p>
+  <p>Estamos fazendo uma pesquisa para escolher qual plano terá desconto especial no dia 23 de novembro. Ajude-nos a decidir!</p>
+  <h2>Qual plano você quer ver na promoção?</h2>
+
+  <form class="form">
+    <label for="name">Nome*</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email*</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Telefone</label>
+    <input type="tel" id="phone" name="phone">
+
+    <fieldset>
+      <legend>Escolha um plano:</legend>
+      <label><input type="radio" name="plano" value="Musculação" required> Musculação Completa</label>
+      <label><input type="radio" name="plano" value="Funcional"> Treinamento Funcional</label>
+      <label><input type="radio" name="plano" value="Crossfit"> Crossfit</label>
+      <label><input type="radio" name="plano" value="Pilates"> Pilates</label>
+    </fieldset>
+
+    <label for="captcha">10 + 5 = ?</label>
+    <input type="text" id="captcha" name="captcha" required>
+
+    <button type="submit" class="btn-escolher">ESCOLHER ESSE PLANO</button>
+
+    <small>Prometemos não utilizar seu contato para envio de SPAM.</small>
+  </form>
+</section>
+
+<section class="plans">
+  <div class="plan" data-aos="fade-up">
+    <h3>💪 Musculação Completa</h3>
+    <p>Plano ideal para quem quer ganhar massa muscular com acompanhamento profissional e equipamentos modernos.</p>
+  </div>
+
+  <div class="plan" data-aos="fade-up">
+    <h3>🏃‍♀️ Treinamento Funcional</h3>
+    <p>Melhore sua resistência e qualidade de vida com treinos dinâmicos que trabalham todo o corpo.</p>
+  </div>
+
+  <div class="plan" data-aos="fade-up">
+    <h3>🔥 Crossfit</h3>
+    <p>Desafie-se com o método que une força, resistência e intensidade em um ambiente motivador.</p>
+  </div>
+
+  <div class="plan" data-aos="fade-up">
+    <h3>🧘‍♀️ Pilates</h3>
+    <p>Fortaleça o core, melhore sua postura e flexibilidade com aulas de Pilates personalizadas.</p>
+  </div>
+</section>
+
+<footer>
+  <p>Feito com ❤️ para te ajudar a evoluir - FitnessPro</p>
+</footer>
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
