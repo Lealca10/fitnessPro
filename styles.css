@@ -134,3 +134,14 @@ footer {
   box-shadow: 0 0 15px rgba(230, 0, 126, 0.7);
   background-color: #c00068;
 }
+
+.price {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #e6007e; 
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
